@@ -1,4 +1,4 @@
-# WiFi アクセスポイントへの簡単登録
+# WiFi アクセスポイントの設定
 
 ## Raspberr Pi に WiFi アクセスポイントを設定する際の問題
 
@@ -12,7 +12,7 @@ Raspberry Pi に WiFi のアクセスポイント情報を登録する手段と�
 
 - ディスプレイとキーボードを接続してディスクトップアプリやコンソールコマンドで登録する
 - PC と LANでの直結、もしくは USB-Serial コンバータで直結し、コンソールを開いて登録する
-- EXT4 file system のドライバをインストールしてある Mac で (Windows は SDカードの先頭のパーティションしか認識しない)　Raspberry Pi の SD カードを開き、wpa_supplicant.conf ファイルを直接編集する
+- EXT4 file system のドライバをインストールしてある PC で　Raspberry Pi の SD カードを開き、wpa_supplicant.conf ファイルを直接編集する
 
 これらはあまり簡単でとは言い難く、特に **必要な機材のない出先** や **作業現場などの屋外** では大変な不便を生じます。
 
