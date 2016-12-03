@@ -20,3 +20,4 @@ Raspberry Pi に WiFi のアクセスポイント情報を登録する手段と�
 
 この問題を解決するために、slider では [addwpa](https://github.com/UedaTakeyuki/addwpa)という、Raspberry Pi 自身に WiFi アクセスポイントを設定させる仕組みを用意しました
 slider の SD カードに PC 等でアクセスポイントの SSID と psk を書いておけば、初回の起動時に自動的にアクセスポイント情報の設定を行います
+設定方法は[WiFi アクセスポイントの設定](addwpa_howto.md)をご参照ください
