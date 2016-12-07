@@ -1,4 +1,4 @@
-# PC での SD カード操作
+# PC からの SD カード操作
 
 ## Raspberr Pi の SDカードの構造[^1]
 
