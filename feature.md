@@ -4,7 +4,7 @@
 ## <u>データ・ロギングの機能</u>
 
 ### IoT 基本機能
-slider は Raspberry Pi に接続された各種センサやカメラデバイスからデータや画像を取得し、以下の処理を行うことができます
+slider は Raspberry Pi に接続された各種センサやカメラデバイスからデータや画像を取得し、以下の処理を行います
 
 - 本体SD または USBに接続した記憶媒体への保存
 - monitor サービス等、外部 IoT サービスへの送信
@@ -62,34 +62,6 @@ slider を Websocket 対応の MQTT Broker として機能させることがで�
 アプリケーション及びその設定ファイルは暗号化されたストレージに保存されるので、盗難等の被害に対して情報を保護することができます
 
 ### コピープロテクション
-他の SDカードにコピーされた slider は起動しません。slider を利用して作成したサービス事態がコピーされることを防止します 
-
-
-[遠隔監視、データ・ロギング](slider_main_feature.md)
-  * [センサデータの取得](read.md)
-  * [多連装カメラ](chapter2.md)
-  * [一定時間間隔でのデータの取得](chapter2.md)
-  * [外部イベントをトリガとしたデータの取得](chapter2.md)
-  * [データの保存](chapter2.md)
-  * [データの送信](chapter2.md)
-  * [データの表示](chapter2.md)
-  * [monitor サービスの利用](chapter2.md)
-  * [その他の IoT サービスの利用](chapter2.md)
-  * [遠隔メンテナンス](chapter2.md)
-* [PC からの操作](sdcard_feature.md)		
-  * [PC からの SD カード操作](sdcard_feature.md)		
-  * [WiFi アクセスポイントへの自己登録](addwpa_feature.md)		
-* [ネットワーク機能](chapter2.md)
-  * [データ monitor 機能](chapter2.md)
-  * [MQTT Brocker の提供](mqtt.md)
-  * [独自 Access Point の提供](chapter2.md)
-  * [addhoc network の構築](chapter2.md)
-  * [Mobile Mesh Net の構築](chapter2.md)
-* [セキュリティ](chapter2.md)
-  * [セキュアストレージ](chapter2.md)
-  * [コピープロテクション](chapter2.md)
-* [slider SD カードの種類](part2.md)
-* [gc15 デスクトップバージョン](chapter2.md)
-* [gc16 コンソールバージョン](chapter2.md)
+他の SDカードにコピーされた slider は起動しません。slider を利用して作成したサービス事態がコピーされることを防止します
 
 [^1]センサ
