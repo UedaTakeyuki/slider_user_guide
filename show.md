@@ -16,14 +16,14 @@ slider は 接続した LCD や OLED に現在値を表示し、phone jack Speak
 ##<u>LCD表示</u>
 下記の LCD に対応しています
 
-1. YmRobot LCM1602 IIC V1
+1. YmRobot LCM1602 I2C LCD コントローラ
 2. SPI SSD1306 128X64 OLED
 
 ###動作設定コマンド
 コンソールより下記コマンドを実行することで動作設定を変更できます  
 デフォルト設定では自動実行解除状態になっています
 
-####YmRobot LCM1602 IIC V1
+####YmRobot LCM1602 I2C LCD コントローラ
 1. 起動時自動実行設定: sudo systemctl enable clock_note.service
 2. 起動時自動実行解除: sudo systemctl disable clock_note.service
 
