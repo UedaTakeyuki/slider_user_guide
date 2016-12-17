@@ -28,6 +28,17 @@ adhoc_address=172.24.1.3
 - slider は **172.24.1.255** のネットワークで adhoc ネットワークを形成します
 - adhoc ネットワークに参加する個々の slider は上記 subnet 内で一意な IP アドレスが **adhoc_address に設定されている必要** があります  
 
+##<u>Adhoc Mode 対応 WiFi ドングル</u>
+Adhoc Mode の機能を持っていて、かつ Raspberry Pi で利用できるドライバが公開されている WiFi デバイスで slider を Access Point Mode で起動させることができます。
+現在、下記 WiFi でバイスで Access Point Mode での起動を確認しています
+- Raspberry Pi 3 組み込み WiFi
+- mac80211 ドライバを使う USB wifi ドングル  
+Buffalo WLI-UC-GNM, Buffalo WLI-UC-GNM2 等  
+
+現在、 下記の WiFi デバイスでは起動が **できていません**
+- r8188eu ドライバ を利用する USB wifi ドングル  
+PLANEX GW-USNANO2A 等
+
 ##<u>MANET(Mobile Adhoc NETwork)</u>
 slider を adhoc mode で起動すると、自分から見える範囲の slider の情報を収集し、バケツリレーで届く範囲の全ての slider で共有することで、直接に通信をする事ができない slider 同士を別の slider が仲介してバケツリレーで通信を行うことを可能にします  
 
