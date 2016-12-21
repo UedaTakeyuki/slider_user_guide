@@ -21,12 +21,12 @@ Apple bonjour プロトコルがインストールされた PC （Mac, Windows10
    ssh pi@gc16.local # gc16 の場合
 ```
 
-それ以外の PC の場合、APIPA で割り振られた IP Address を直接指定して接続します
+それ以外の PC の場合、DHCP で割り振られた IP Address を直接指定して接続します
 
 ```bash:
-   ssh pi@169.254.167.131
+   ssh pi@192.168.167.131
 ```
 
-[データの表示](show.md) を有効にしておくと、slider は APIPA で割り振られた IP アドレスを表示します
+[データの表示](show.md) を有効にしておくと、slider は DHCP で割り振られた IP アドレスを表示します
 
 <img src="pic/ss.2016-12-16 14.43.45.png" width="75%">
