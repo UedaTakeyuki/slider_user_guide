@@ -4,7 +4,7 @@
 ## <u>データ・ロギングの機能</u>
 
 ### IoT 基本機能
-slider は Raspberry Pi に接続された各種センサやカメラデバイスからデータや画像を取得し、以下の処理を行います
+slider は Raspberry Pi に接続された各種センサやカメラデバイスからデータや画像を取得し、以下を行います
 
 - 本体SD または USBに接続した記憶媒体への保存
 - monitor サービス等、外部 IoT サービスへの送信
@@ -83,4 +83,4 @@ slider を Websocket 対応の MQTT Broker として機能させることがで�
 ##<u>Raspberry Pi 補完機能</u>
 Raspberry Pi を情報システムの一部として使用する際に便利な機能を用意しています
 
-### 
+###
