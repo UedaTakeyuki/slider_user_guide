@@ -13,4 +13,4 @@ slider 自身のサーバ機能を使い、いくつかの便利な Web サー�
   - [簡易 monitor 表示](internal_monitor_view.md)：  
   [簡易 monitor server](internal_monitor_server.md) 機能を使い自身や他の slider から送信されたセンサデータや撮影画像を表示することができます
   - [簡易 スピーチ機能](speech.md)：
-  slider に接続した phone スピーカーや、TV のスピーカーにを使い、
+  slider に接続した phone スピーカーや、TV のスピーカーにテキストを送信して slider を喋らせる機能です
