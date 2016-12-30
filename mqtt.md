@@ -34,3 +34,6 @@ sudo systemctl stop mosquitto
 # MQTT サービスの開始
 sudo systemctl start mosquitto
 ```
+
+##<u>websocket</u>
+javascript からは port 9001 で websocket に接続できます
