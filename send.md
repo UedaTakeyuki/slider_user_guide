@@ -2,6 +2,8 @@
 デフォルト設定で slider は取得したセンサデータや撮影した画像を自分自身が提供する monitor サービスに送信します。送信を行うかどうか、送信先、送信方法等を変更することができます
 
 ##<u>デフォルトの送信先</u>
+デフォルトの設定で送信先は自分自身の[簡易 monitor 表示](internal_monitor_view.md)になります
+
 ###monitor サービス
 monitor サービスは slider から継続的に送信されるセンサーデータや撮影画像を受け取り、直近の状況を表示する Web アプリケーションといくつかの付加機能から構成される Web ベースのサービスです
 
@@ -11,27 +13,7 @@ monitor サービスは slider から継続的に送信されるセンサーデ�
 <img src="pic/2016-12-09 14.31.02.png" width="20%">
 
 ###localhost
-slider は Web Server をそなえていて、slider と同じネットワークに属する(windows10 以前の Windows を除き) Windows10, Mac, iOS, android などから以下のアドレスにアクセスすると
-
-- gc15 の場合： http://gc15.local
-- gc16 の場合： http://gc16.local
-
-下記の画面を開きます
-<img src="pic/ss.2016-12-09 15.16.29.png" width="75%">
-
-BackupPi_2 は他の RaspberryPi の SD カードを Web インターフェースでバックアップする機能、say は Raspberry Pi を遠隔で喋らせる機能、そして monitor が **自分自身が提供する monitor サービス** になります
-
-monitor のリンクをクリックすると login 画面が開きます。初期状態でログインアカウントは id, pw 共に **00** です
-
-<img src="pic/ss.2016-12-10 21.34.17.png" width="75%">
-
-ログインすると、slider が送信するデータの最新値の監視がはじまります。左上の **設定変更** ボタンで設定変更画面になり
-
-<img src="pic/ss.2016-12-10 21.34.38.png" width="75%">
-
-グラフ表示データの表示数とアカウント情報の変更が可能です
-
-<img src="pic/ss.2016-12-10 21.38.47.png" width="75%">
+ブラウザから slider の [Webインターフェース](webif.md) に接続し、[簡易 monitor 表示](internal_monitor_view.md) を開くと、センサデータや撮影画像を確認することができます
 
 ##<u>送信の抑止</u>
 取得したセンサデータや撮影データを送信したくない場合は[センサデータの取得](read.md)で説明する config.toml ファイルの data 宣言の第３要素の **送信** の指定を "" にすることで保存の抑止が指定できます

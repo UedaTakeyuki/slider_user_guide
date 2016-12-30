@@ -6,6 +6,13 @@ slider と同じネットワーク内のブラウザで **ホスト名.local** �
 
 <img src="pic/ss.2016-12-29 18.42.41.png" width="80%">
 
+Windows10, Mac, iOS, android などは　**ホスト名.local**　でアクセスできます
+
+- gc15 の場合： http://gc15.local
+- gc16 の場合： http://gc16.local
+
+古い Windows では **IPアドレス** の直接入力が必要です
+
 各々のリンクをクリックすると個々のメニューにジャンプします
 
 個々の機能は上からそれぞれ以下のようになります
