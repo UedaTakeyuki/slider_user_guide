@@ -27,10 +27,10 @@
 [](		* [その他の IoT サービスの利用](chapter2.md))
 		* [処理間隔の設定](cron.md)
 		* [外部イベント・トリガー](trigger.md)
-<!--		* [遠隔メンテナンス](chapter2.md)
+[](		* [遠隔メンテナンス](chapter2.md)
 		* [PC からの操作](sdcard_feature.md)		
 		* [PC からの SD カード操作](sdcard_feature.md)		
-		* [WiFi アクセスポイントへの自己登録](addwpa_feature.md)-->
+		* [WiFi アクセスポイントへの自己登録](addwpa_feature.md))
 	* [ネットワーク機能](network.md)
 		* [Access Point mode](ap.md)
 		* [addhoc mode と MANET(Mobile Adhoc NETwork)](adhoc.md)
