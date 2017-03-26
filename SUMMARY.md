@@ -24,7 +24,9 @@
 		* [データの送信](send.md)
 		* [データの表示](show.md)
 		* [monitor サービス等の IoT サービスの利用](monitor.md)
+
 <!--		* [その他の IoT サービスの利用](chapter2.md) -->
+
 		* [処理間隔の設定](cron.md)
 		* [外部イベント・トリガー](trigger.md)
 <!--		* [遠隔メンテナンス](chapter2.md)
