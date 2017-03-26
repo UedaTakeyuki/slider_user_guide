@@ -5,8 +5,10 @@
 * [slider SD カードの構造](sd_structure.md)
 * [起動と終了](start_and_stop.md)
 * [slider SD カードの種類](sd_type.md)
-	<!--* [gc15 デスクトップバージョン](chapter2.md)
-	* [gc16 コンソールバージョン](chapter2.md)-->
+<!---
+	* [gc15 デスクトップバージョン](chapter2.md)
+	* [gc16 コンソールバージョン](chapter2.md)
+--->
 * [slider へのログイン](login.md)
 	* [Raspberry Pi 単体での login](rpi_login.md)
 	* [PC からの login](pc_login.md)
@@ -25,7 +27,7 @@
 		* [データの表示](show.md)
 		* [monitor サービス等の IoT サービスの利用](monitor.md)
 
-<!--		* [その他の IoT サービスの利用](chapter2.md) -->
+<!---		* [その他の IoT サービスの利用](chapter2.md) --->
 
 		* [処理間隔の設定](cron.md)
 		* [外部イベント・トリガー](trigger.md)
