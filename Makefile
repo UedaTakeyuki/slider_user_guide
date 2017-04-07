@@ -1,6 +1,7 @@
-book.pdf: version.md
+slider_user_guide.pdf: version.md
 		gitbook pdf
 		rm version.txt version.md
+		mv book.pdf slider_user_guide.pdf
 
 version.txt:
 		echo '# version of source file' > version.txt
